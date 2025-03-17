@@ -75,10 +75,9 @@ nav .button-part a:hover {
 /* ==============
 Navber css end
 ============== */
-
-.jainna{
-	width:100%;
-	height:1000px;
-	background-color:blue;
-	display:block;
+l c .jainna {
+  width: 100%;
+  height: 1000px;
+  background-color: blue;
+  display: block;
 }
