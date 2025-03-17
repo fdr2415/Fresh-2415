@@ -1,26 +1,24 @@
-*{
-    margin: 0;
-    padding: 0;
-
+* {
+  margin: 0;
+  padding: 0;
 }
 /* ==============
 Common css start
 ============== */
-.container{
-    width: 1270px;
-    margin: 0 auto;
+.container {
+  width: 1270px;
+  margin: 0 auto;
 }
-.box{
-    display: flex;
-
-    
+.box {
+  display: flex;
 }
 
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
-ul,ol{
-    list-style: none;
+ul,
+ol {
+  list-style: none;
 }
 /* ==============
 Common css end
@@ -28,62 +26,51 @@ Common css end
 /* ==============
 Navber css strat
 ============== */
-nav{
-    background: #FAE3B6;
-    padding: 50px 0px;
+nav {
+  background: #fae3b6;
+  padding: 50px 0px;
 }
-nav .box{
-    align-items:center ;
-    
-}
-
-nav .logo-part{
-    width: 20%;
-    
-   
-}
-nav .menu-part{
-    width: 60%;
-   
-   
-}
-nav .menu-part ul{
-    display: flex;
-    column-gap: 59px;
-    justify-content: center;
-}
-nav .menu-part ul li a{
-    color: #000;
-    font-size: 24px;
-    font-weight: 600;
-    font-family: "Poppins", sans-serif;
-    
+nav .box {
+  align-items: center;
 }
 
-
-nav .button-part{
-    width: 20%;
-    text-align: right;
-    
- 
+nav .logo-part {
+  width: 20%;
 }
-nav .button-part a{
-    background: #FDBB57;
-    padding: 10px 15px;
-    color: #050505;
-    font-size: 24px;
-    font-weight: 600;
-    font-family: "Poppins", sans-serif;
-    border-radius: 10px;
-    transition: .4s;
-    border: 1px solid transparent;
+nav .menu-part {
+  width: 60%;
+}
+nav .menu-part ul {
+  display: flex;
+  column-gap: 59px;
+  justify-content: center;
+}
+nav .menu-part ul li a {
+  color: #000;
+  font-size: 24px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
 }
 
-nav .button-part a:hover{
-    background: #FAE3B6;
-    border-color: rgb(137, 127, 127);
-   
+nav .button-part {
+  width: 20%;
+  text-align: right;
+}
+nav .button-part a {
+  background: #fdbb57;
+  padding: 10px 15px;
+  color: #050505;
+  font-size: 24px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  border-radius: 10px;
+  transition: 0.4s;
+  border: 1px solid transparent;
+}
 
+nav .button-part a:hover {
+  background: #fae3b6;
+  border-color: rgb(137, 127, 127);
 }
 /* ==============
 Navber css end
